@@ -1,0 +1,12 @@
+.MainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button-cambia_pokemones{
+    top:10px;
+    position:sticky;
+    margin:5px;
+    height:80vh;
+}

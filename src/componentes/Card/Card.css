@@ -1,0 +1,102 @@
+
+.CardPokemon{
+    border-style: solid;
+    border-width: 0.4rem;
+    border-radius: 1rem;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    min-width: 40rem;
+    background-color:firebrick  ;
+    margin:1rem;
+}
+.CardPokemon .imgCard{
+    margin:1rem;
+    width: 30rem;
+    border-style: solid;
+    align-self: center;
+    background-color: antiquewhite;
+
+}
+.CardPokemon .descripcionCorta{
+display: flex;
+justify-content: center;
+border-style: solid;
+
+background-color: black;
+}
+
+.CardPokemon .descripcionCorta .pokemonName{
+    font-size: 4rem;
+    font-weight: 800;
+    color:antiquewhite;
+}
+.CardPokemon .descripcionLarga{
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+background-color: antiquewhite;
+}
+
+.CardPokemon .descripcionLarga .abilitiesContainer{
+margin-top:1rem;
+margin-bottom: 1rem;
+}
+
+.CardPokemon .descripcionLarga .abilitiesContainer .abilityLabel{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.CardPokemon .descripcionLarga .abilitiesContainer .ability{
+
+}
+
+.CardPokemon .descripcionLarga .statsContainer{
+
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
+
+.CardPokemon .descripcionLarga .statsContainer .statsLabel{
+
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.CardPokemon .descripcionLarga .statsContainer .statContainer{
+display:flex;
+flex-direction: row;
+}
+
+.CardPokemon .descripcionLarga .statsContainer .statContainer .statLabel{
+
+}
+
+.CardPokemon .descripcionLarga .statsContainer .statContainer .stat{
+
+}
+
+.CardPokemon .cardButtons{
+    background-color: antiquewhite;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-content: center;
+    width:100%
+}
+/*descripcionCorta
+    pokemonName
+descripcionLarga
+    abilitiesContainer
+        abilityLabel
+        ability
+    statsContainer
+        statsLabel
+        statContainer
+            statLabel
+            stat*/
+.imgPokebola{
+    width:2rem;
+}

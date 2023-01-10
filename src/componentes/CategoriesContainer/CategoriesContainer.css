@@ -1,0 +1,12 @@
+.CategoriesContainer {
+    display:flex;
+
+}
+
+.CategoriesContainer a{
+    margin-right: 3rem;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 5rem;
+    padding:0.5rem;
+}

@@ -1,0 +1,45 @@
+
+.CardInCart{
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 1rem;
+    display:flex;
+    flex-direction: row;
+justify-content: space-between;
+align-items: center;
+    margin:1rem;
+    background-color: rgb(202, 202, 202);
+}
+
+.CardInCart .descripcionCorta{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.CardInCart .descripcionCorta .imgCard{
+    margin:1rem;
+    width: 10rem;
+    align-self: center;
+
+}
+
+.CardInCart .descripcionCorta .pokemonName{
+    font-size: 2rem;
+    font-weight: 600;
+    color:black;
+}
+
+.CardInCart .cardButtons{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-content: center;
+    height: 25%;
+    margin: 2px;
+}
+
+.imgPokebola{
+    width:1rem;
+}

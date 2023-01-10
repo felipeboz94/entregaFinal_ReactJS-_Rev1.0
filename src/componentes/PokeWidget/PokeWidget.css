@@ -1,0 +1,8 @@
+.pokeWidget{
+    background-color: rgba(0,0,0,0);
+    border-style: none;
+}
+
+.pokeWidget img{
+    width:5rem; 
+}

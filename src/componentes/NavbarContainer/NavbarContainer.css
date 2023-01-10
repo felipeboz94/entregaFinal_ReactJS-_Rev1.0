@@ -1,0 +1,12 @@
+.navBar{
+    height:auto;
+    border-bottom: solid;
+    border-width: 0.1rem;
+    display:flex;
+}
+.navBar nav a {
+    margin:1rem;
+}
+.Logo{
+    width:30rem;
+}
